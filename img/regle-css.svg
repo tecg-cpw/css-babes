@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="" xmlns:xlink="http://www.w3.org/1999/xlink" width="700px" height="300px" version="1.1">
+    <defs />
+    <g transform="translate(0.5,0.5)">
+        <g transform="translate(189,80)">
+            <switch>
+                <foreignObject pointer-events="all" width="340" height="150" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 22px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 150px; max-width: 352px; white-space: nowrap; text-align: center;">
+                        <div style="display:inline-block;text-align:inherit;text-decoration:inherit;" xmlns="http://www.w3.org/1999/xhtml">
+                            <div align="left">
+                                <font face="Courier New">
+                                    <span style="">
+                                        <span style="background-color: rgb(255,255,204); font-size: 1.2em;">
+                                        	{
+                                        </span>
+                                        <br />
+                                    </span>
+                                    <span style="margin-left:10px;">
+                                        <span style="border: 1px dashed rgb(7,178,0); line-height: 2;">  
+                                        	background-color</span>
+	                                    <span style="background-color: rgb(255,255,204)"> 
+	                                    	:</span>
+	                                    <span style="border: 1px dashed rgb(7,178,0); line-height: 2;">
+	                                    	red</span>
+	                                    <span style="background-color: rgb(255,255,204); margin-left: 0;">
+	                                    	;
+	                                    </span>
+	                                </span>
+                                </font>
+                                <br />
+                            </div>
+                            <div align="left">
+                                <font face="Courier New">
+	                                <span style="display: inline-block; margin-top: 0.5em; ">
+	                                	<span style="border: 1px dashed rgb(7,178,0); margin-left:10px;">
+	                                        <span style=""> 
+	                                        	font-size</span>
+	                                        <span style="display: inline-block; width: 66px;"></span>
+	                                    </span>
+	                                    <span style="background-color: rgb(255,255,204); margin-left:14px;">
+	                                    	 :</span>
+	                                    <span style="border: 1px dashed rgb(7,178,0)">9px</span>
+	                                    <span style="background-color: rgb(255,255,204)">
+	                                    	;
+	                                    </span> 
+	                                </span>    
+                                	<span style="background-color: rgb(210,255,201)"> 
+                                		<br />
+                                	</span>
+                                    <span style="display: inline-block; background-color: rgb(255,255,204); margin-top: 5px; font-size: 1.2em;">
+                                    	}
+                                    </span>
+                                </font>
+                                <br />
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="170" y="68" fill="#000000" text-anchor="middle" font-size="22px" font-family="Helvetica">[Not supported by viewer]</text>
+            </switch>
+        </g>
+        <rect x="184" y="80" width="346" height="156" rx="6" ry="6" fill="none" stroke="purple" stroke-dasharray="10 5" stroke-dashoffset="5" pointer-events="none" /> <!-- #757575 -->
+        <g transform="translate(275,48)">
+            <switch>
+                <foreignObject pointer-events="all" width="220" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 23px; font-family: Helvetica; color: purple; line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 26px; max-width: 250px; white-space: nowrap; text-align: center;">
+                        <div style="display:inline-block;text-align:inherit;text-decoration:inherit; font-family:sans-serif;font-weight:bold;font-size:18px;" xmlns="http://www.w3.org/1999/xhtml">bloc de déclarations<br /></div>
+                    </div>
+                </foreignObject>
+                <text x="35" y="25" fill="#4D4D4D" text-anchor="middle" font-size="23px" font-family="Helvetica">[Not supported by viewer]</text>
+            </switch>
+        </g>
+        <g transform="translate(36,80)">
+            <switch>
+                <foreignObject pointer-events="all" width="275" height="36" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 22px; font-family: Courier New; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 36px; max-width: 326px; width: 275px; white-space: normal;">
+                        <div style="display:inline-block;text-align:inherit;text-decoration:inherit;" xmlns="http://www.w3.org/1999/xhtml">
+                            <span style="">
+                                <font face="Courier New" style="font-size: 22px">
+                                	body<br /><br />
+                            	</font>
+                            </span>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="138" y="29" fill="#000000" text-anchor="middle" font-size="22px" font-family="Courier New">[Not supported by viewer]</text>
+            </switch>
+        </g>
+        <rect x="32" y="80" width="140" height="30" rx="4.5" ry="4.5" fill="none" stroke="purple" stroke-dasharray="10 5" stroke-dashoffset="5" pointer-events="none" /> <!-- #757575 -->
+        <g transform="translate(62,48)">
+            <switch>
+                <foreignObject pointer-events="all" width="100" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 23px; font-family: Helvetica; color: purple; line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 26px; max-width: 120px; white-space: nowrap; text-align: center;">
+                        <div style="display:inline-block;text-align:inherit;text-decoration:inherit; font-family:sans-serif;font-weight:bold;font-size:18px;" xmlns="http://www.w3.org/1999/xhtml">sélecteur<br /></div>
+                    </div>
+                </foreignObject>
+                <text x="89" y="25" fill="#4D4D4D" text-anchor="middle" font-size="23px" font-family="Helvetica">[Not supported by viewer]</text>
+            </switch>
+        </g>
+        <!-- <path d="M 326 -115 L 321 -115 Q 316 -115 316 -105 L 316 190 Q 316 200 311 200 L 308.5 200 Q 306 200 311 200 L 313.5 200 Q 316 200 316 210 L 316 505 Q 316 515 321 515 L 326 515" fill="none" stroke="#757575" stroke-miterlimit="10" transform="rotate(90,416,100)" pointer-events="none" /> -->
+        <path d="M 326 -50 L 321 -50 Q 316 -50 316 -40 L 316 190 Q 316 200 311 200 L 308.5 200 Q 306 200 311 200 L 313.5 200 Q 316 200 316 210 L 316 440 Q 316 450 321 450 L 326 450" fill="none" stroke="#757575" stroke-miterlimit="10" transform="rotate(90,380,100)" pointer-events="none" /> 
+        <g transform="translate(230,0)">
+            <switch>
+                <foreignObject pointer-events="all" width="152" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 23px; font-family: Helvetica; color: purple; line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 26px; max-width: 162px; white-space: nowrap; text-align: center;">
+                        <div style="display:inline-block;text-align:inherit;text-decoration:inherit; font-family:sans-serif;font-weight:bold;font-size:18px;" xmlns="http://www.w3.org/1999/xhtml">une règle CSS<br /></div>
+                    </div>
+                </foreignObject>
+                <text x="76" y="25" fill="#4D4D4D" text-anchor="middle" font-size="23px" font-family="Helvetica">[Not supported by viewer]</text>
+            </switch>
+        </g>
+    </g>
+    <g id="fleche1" transform="translate(125,-60)">
+		<line id="height_line" x1="189" y1="255" x2="189" y2="325" fill="none" stroke="rgb(7,178,0)" stroke-width="2"/> <!-- stroke-dasharray="10 10" stroke-dashoffset="5" -->
+		<polygon points="189,319 195.351,319 192.176,324.507 189,330 185.824,324.5 182.649,319" fill="rgb(7,178,0)"/>
+	</g>
+	<g id="fleche2" transform="translate(288,-60)">
+		<line id="height_line" x1="189" y1="255" x2="189" y2="325" fill="none" stroke="rgb(7,178,0)" stroke-width="2"/> <!-- stroke-dasharray="10 10" stroke-dashoffset="5" -->
+		<polygon points="189,319 195.351,319 192.176,324.507 189,330 185.824,324.5 182.649,319" fill="rgb(7,178,0)"/>
+	</g>
+    <g transform="translate(275,270)">
+	    <switch>
+	        <foreignObject pointer-events="all" width="100" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+	            <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 23px; font-family: Helvetica; color: rgb(7,178,0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 26px; max-width: 120px; white-space: nowrap; text-align: center;">
+	                <div style="display:inline-block;text-align:inherit;text-decoration:inherit; font-family:sans-serif;font-weight:bold;font-size:18px;" xmlns="http://www.w3.org/1999/xhtml">propriété<br /></div>
+	            </div>
+	        </foreignObject>
+	        <text x="89" y="25" fill="#4D4D4D" text-anchor="middle" font-size="23px" font-family="Helvetica">[Not supported by viewer]</text>
+	    </switch>
+	</g>
+    <g transform="translate(450,270)">
+	    <switch>
+	        <foreignObject pointer-events="all" width="100" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+	            <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 23px; font-family: Helvetica; color: rgb(7,178,0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 26px; max-width: 120px; white-space: nowrap; text-align: center;">
+	                <div style="display:inline-block;text-align:inherit;text-decoration:inherit; font-family:sans-serif;font-weight:bold;font-size:18px;" xmlns="http://www.w3.org/1999/xhtml">valeur<br /></div>
+	            </div>
+	        </foreignObject>
+	        <text x="89" y="25" fill="#4D4D4D" text-anchor="middle" font-size="23px" font-family="Helvetica">[Not supported by viewer]</text>
+	    </switch>
+	</g>
+    <g id="fleche3" transform="translate(290,-119) rotate(-90,189,255)"> <!-- rotate(90) -->
+		<line id="height_line" x1="189" y1="300" x2="189" y2="325" fill="none" stroke="purple" stroke-width="2"/> <!-- stroke-dasharray="10 10" stroke-dashoffset="5" -->
+		<polygon points="189,319 195.351,319 192.176,324.507 189,330 185.824,324.5 182.649,319" fill="purple"/>
+	</g>
+    <g id="fleche4" transform="translate(290,-72) rotate(-90,189,255)"> <!-- rotate(90) -->
+		<line id="height_line" x1="189" y1="300" x2="189" y2="325" fill="none" stroke="purple" stroke-width="2"/> <!-- stroke-dasharray="10 10" stroke-dashoffset="5" -->
+		<polygon points="189,319 195.351,319 192.176,324.507 189,330 185.824,324.5 182.649,319" fill="purple"/>
+	</g>
+	<g transform="translate(560,121)">
+	    <switch>
+	        <foreignObject pointer-events="all" width="400" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+	            <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 23px; font-family: Helvetica; color: purple; line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 26px; white-space: nowrap; text-align: center;">
+	                <div style="display:inline-block;text-align:inherit;text-decoration:inherit; font-family:sans-serif;font-weight:bold;font-size:18px;" xmlns="http://www.w3.org/1999/xhtml">une déclaration<br /></div>
+	            </div>
+	        </foreignObject>
+	        <text x="89" y="25" fill="#4D4D4D" text-anchor="middle" font-size="23px" font-family="Helvetica">[Not supported by viewer]</text>
+	    </switch>
+	</g>
+	<g transform="translate(560,168)">
+	    <switch>
+	        <foreignObject pointer-events="all" width="400" height="26" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+	            <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 23px; font-family: Helvetica; color: purple; line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 26px; white-space: nowrap; text-align: center;">
+	                <div style="display:inline-block;text-align:inherit;text-decoration:inherit; font-family:sans-serif;font-weight:bold;font-size:18px;" xmlns="http://www.w3.org/1999/xhtml">une déclaration<br /></div>
+	            </div>
+	        </foreignObject>
+	        <text x="89" y="25" fill="#4D4D4D" text-anchor="middle" font-size="23px" font-family="Helvetica">[Not supported by viewer]</text>
+	    </switch>
+	</g>
+</svg>

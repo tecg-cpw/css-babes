@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Intro CSS – Codebabes</title>
+		<link rel="stylesheet" href="./css/style.css">
+	</head>
+	<body>
+		<main id="content">
+			<h1 role="heading" aria-level="1">
+				Codebabes – Intro à CSS
+			</h1>
+			<p class="highlight">
+				<abbr title="Cascading Style Sheets">CSS</abbr> (<i>Cascading Style Sheets</i> ou <i>Feuilles de Style en Cascade</i> en français) est le langage utilisé pour contrôler la présentation des pages web dans le navigateur. Le navigateur applique les déclarations  CSS aux éléments sélectionnés pour les styler.
+			</p>
+			<section id="s1" aria-labelledby="s1h">
+				<h2 id="s1h" role="heading" aria-level="2">
+					La syntaxe du CSS
+				</h2>
+				<p>
+					Une <a href="https://developer.mozilla.org/fr/Apprendre/CSS/Les_bases/La_syntaxe">règle CSS</a> est un ensemble de déclarations CSS associées à un sélecteur. 
+				</p>
+				<figure>
+					<img src="img/regle-css.svg" alt="">
+					<figcaption>Une règle CSS : un sélecteur et son bloc de déclarations, chacune constituée d’un couple propriété - valeur</figcaption>
+				</figure>
+				<section id= "s11" aria-labelledby="s11h">
+					<h3 id="s11h" role="heading" aria-level="3">
+						Les sélecteurs
+					</h3>
+					<p>
+						Le <dfn class="principal">sélecteur</dfn> sert à cibler l’élément qu’on veut styler dans le code HTML.
+					</p>
+					<p>
+						Il existe de nombreux types de sélecteurs en CSS&nbsp;:
+					</p>
+					<ul>
+						<li>
+							le <dfn class="principal">sélecteur de type</dfn>&nbsp;: c’est le plus simple, c’est juste le nom d’une balise. Il cible tous les éléments qui portent ce nom de balise&nbsp;;
+						</li>
+						<li>
+							le <dfn class="principal">sélecteur d’id</dfn>, identifé par le symbole <code class="principal">#</code>, qui cible un élément sur base de la valeur de son attribut <code>id</code>&nbsp;;
+						</li>
+						<li>
+							le <dfn class="principal">sélecteur de classe</dfn>, identifé par le symbole <code class="principal">.</code>, qui cible un élément sur base de la valeur de son attribut <code>class</code>&nbsp;;
+						</li>
+						<li>
+							le <dfn class="principal">sélecteur de pseudo-classe</dfn>, identifé par le symbole <code class="principal">:</code>, qui cible un élément sur base d’une pseudo-classe&nbsp;;
+						</li>
+						<li>
+							etc.
+						</li>
+					</ul>
+				</section> <!-- #s11 -->
+				<section id= "s12" aria-labelledby="s12h">
+					<h3 role="heading" aria-level="3">
+						Le bloc de déclarations
+					</h3>
+					<p>
+						Le <dfn class="principal">bloc de déclarations</dfn> sert à appliquer le style à l’élément ciblé. Il est délimité par les <i class="principal">accolades</i> (<b><code class="principal">{&nbsp;}</code></b>) et peut comporter plusieurs déclarations CSS.
+					</p>
+					<p>
+						Chaque déclaration CSS sert à changer un des paramètres de style (la couleur de texte, la couleur de fond, la taille de texte,&nbsp;…). Elle se termine par un <i class="principal">point-virgule</i> (<b><code class="principal">;</code></b>).
+					</p>
+					<p>
+						Chaque déclaration se décompose en deux parties :
+					</p>
+					<ul>
+						<li>
+							une propriété&nbsp;;
+						</li>
+						<li>
+							une valeur.
+						</li>
+					</ul>
+					<section id= "s121" aria-labelledby="s121h">	
+						<h4 id= "s121h" class="secondary" role="heading" aria-level="4">
+							La propriété
+						</h4>
+						<p>
+							La <dfn class="secondary">propriété</dfn> sert à préciser quel paramètre on veut modifier.
+						</p>
+						<p>
+							Les propriétés sont des mots-clés du langage CSS (elles sont listées par ordre alphabétique dans le <i>Pocket Reference</i>). Il en existe un grand nombre, par exemple&nbsp;:
+						</p>
+						<ul>
+							<li>
+								<code class="secondary">color</code> pour changer la couleur de texte&nbsp;;
+							</li>
+							<li>
+								<code class="secondary">background-color</code> pour changer la couleur de fond&nbsp;;
+							</li>
+							<li>
+								<code class="secondary">font-size</code> pour changer la taille du texte&nbsp;;
+							</li>
+							<li>
+								<code class="secondary">line-height</code> pour changer la hauteur de l’interligne&nbsp;;
+							</li>	
+							<li>
+								etc.
+							</li>		
+						</ul>
+					</section> <!-- #s121 -->
+					<section id= "s122" aria-labelledby="s122h">
+						<h4 id= "s122h" class="secondary" role="heading" aria-level="4">
+							La valeur
+						</h4>
+						<p>
+							La <dfn class="secondary">valeur</dfn> sert à préciser ce qu’on a choisi pour la propriété. 
+						</p>
+						<p>
+							Il existe un grand nombre de valeurs possibles en CSS, en fonction des propriétés, par exemple&nbsp;:
+						</p>
+						<ul>
+							<li>
+								des valeurs de couleur comme <code class="secondary">red</code> (couleur nommée), ou <code class="secondary">#FF0000</code> (couleur héxadécimale), ou <code class="secondary">rgb(255,0,0)</code> (couleur RVB), ou <code class="secondary">rgba(255,0,0,.5)</code> (couleur RVB avec une couche de transparence) pour des propriétés qui servent à définir une couleur comme par exemple <code class="secondary">color</code> ou  <code class="secondary">background-color</code>&nbsp;;
+							</li>
+							<li>
+								des valeurs de taille (un chiffre) avec une unité comme <code class="secondary">px</code> ou <code class="secondary">em</code> ou <code class="secondary">%</code> (par exemple <code class="secondary">12px</code>) pour des propriétés qui servent à définir des dimensions comme par exemple <code class="secondary">font-size</code> ou  <code class="secondary">width</code>&nbsp;;
+							</li>
+							<li>
+								etc.
+							</li>
+						</ul>
+					</section> <!-- #s122 -->
+				</section> <!-- #s12 -->
+			</section> <!-- #s1 -->
+			<section id="s2" aria-labelledby="s2h">
+				<h2 id= "s2h" role="heading" aria-level="2">
+					Le modèle de boîte en CSS
+				</h2>
+				<p class="highlight">
+					<strong>Toute balise HTML est une boîte en CSS</strong>. Un <code>p</code> est une boîte, un <code>div</code> est une boîte, un <code>h1</code> est une boîte, un <code>ul</code> est une boîte, un <code>li</code> est une boîte, un <code>a</code> est une boîte, un <code>em</code> est une boîte, …
+				</p>
+				<p>
+					Les boîtes correspondant aux différentes balises HTML imbriquées dans l’arbre logique du document  s’emboîtent les unes dans les autres comme des poupées russes. 
+				</p>
+				<figure>
+					<img src="img/html5-imbrication-boites.png" alt="">
+					<figcaption>Les boîtes CSS correspondant aux différentes balises HTML imbriquées</figcaption>
+				</figure>
+				<p>
+					Chaque boîte est composée de quatre éléments&nbsp;:
+				</p>
+				<ul>
+					<li>une zone de contenu&nbsp;;</li>
+					<li>un <code>padding</code> (ou marge interne)&nbsp;;</li>
+					<li>un <code>border</code>&nbsp;;</li>
+					<li>un <code>margin</code> (ou marge externe).</li>
+				</ul>
+				<figure>
+					<img src="img/modele-boite-3.svg" alt="">
+					<figcaption>Le modèle de boîte : contenu, padding, bordure, margin</figcaption>
+				</figure>
+				<section id="s21" aria-labelledby="s21h">
+					<h3 id="s21h" role="heading" aria-level="3">
+						La zone de contenu
+					</h3>
+					<p>
+						La <dfn class="principal">zone de contenu</dfn> est la zone qui contient le texte proprement dit, ou l’image s’il s’agit d’une balise qui affiche une image. 
+					</p>
+					<p>
+						Dans le <a href="https://developer.mozilla.org/fr/Apprendre/CSS/Les_bases/Le_mod%C3%A8le_de_bo%C3%AEte">modèle de boîte standard</a>, la taille de la zone de contenu est définie par les propriétés <code class="secondary">width</code> (pour la largeur) et <code class="secondary">height</code> (pour la hauteur). 
+					</p>
+					<p class="highlight">
+						<strong>Attention</strong>&nbsp;: Fixer la hauteur d’une zone de contenu qui contient du texte (propriété <code class="secondary">height</code>) est une très mauvaise pratique, à éviter absolument.
+					</p>
+				</section> <!--  #s21 -->
+				<section id="s22" aria-labelledby="s22h">
+					<h3 id="s22h" role="heading" aria-level="3">
+						Le padding
+					</h3>
+					<p>
+						Le <dfn class="principal">padding</dfn>, ou <i>marge interne</i> est la zone qui sépare le contenu de la bordure. Il prend la couleur de fond de l’élément.
+					</p>
+				</section> <!-- #s22 -->
+				<section id="s23" aria-labelledby="s23h">
+					<h3 id="s23h" role="heading" aria-level="3">
+						Le border
+					</h3>
+					<p>
+						Le <dfn class="principal">border</dfn> est la bordure qui entoure l’élément. On peut définir son style (trait plein, pointillé, …), son épaisseur, sa couleur.
+					</p>
+				</section> <!-- #s23 -->
+				<section id="s24" aria-labelledby="s24h">
+					<h3 id="s24h" role="heading" aria-level="3">
+						Le margin
+					</h3>
+					<p>
+						Le <dfn class="principal">margin</dfn>, ou <i>marge externe</i>, assure la séparation entre les éléments. La marge externe est transparente, de sorte qu’elle aura la couleur de son élément parent. 
+					</p>
+				</section> <!-- #s24 -->
+				<section id="s25" aria-labelledby="s25h">
+					<h3 id="s25h" role="heading" aria-level="3">
+						L’équation du modèle de boîte
+					</h3>
+					<p>
+						Dans le modèle de boîte standard, la largeur totale de la boîte se calcule selon l’équation suivante&nbsp;: 
+					</p>
+					<figure>
+						<img src="img/modele-boite-equation.svg" alt="">
+						<figcaption>Illustration de l’équation du modèle de boîte</figcaption>
+					</figure>
+					<p class="equation">
+						<dfn class="principal">Largeur totale visible</dfn> = <code>border-left</code> + <code>padding-left</code> + <code class="secondary">width</code> + <code>border-right</code> + <code>padding-right</code>
+					</p>
+					<p class="equation">
+						<dfn class="principal">Largeur totale</dfn> = <code>margin-left</code> + <span>largeur totale visible</span> + <code>margin-right</code>
+					</p>
+				</section> <!-- #s25 -->
+			</section><!-- #s2 -->
+		</main>
+		<footer id="footer">
+			<p>
+				<small>&copy; Tous droits réservés</small>
+			</p>
+		</footer>
+	</body>
+</html>

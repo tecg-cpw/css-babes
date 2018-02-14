@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 580">
+<style type="text/css">
+	.st0{fill:none;stroke:#999999;stroke-dasharray:10 10;stroke-dashoffset:5;}
+	.st1{fill:none;stroke:purple;stroke-width:30;}
+	.st2{fill:none;stroke:rgb(7,178,0);stroke-width:4;}
+	.st3{font-family:sans-serif;font-weight:bold;font-size:18px;text-anchor:middle;}
+	.st4{fill:#FFFFFF;font-size:17px;}
+	.st5{fill:rgba(7,178,0,.6);font-family:sans-serif;font-style:italic;font-size:24px;text-anchor:middle;}
+	.st6{fill:rgb(7,178,0);}
+	.st7{stroke:rgb(7,178,0);}
+	.st8{fill:none;stroke:purple;stroke-width:4;}
+	.st9{fill:purple;}
+	.st10{fill:none;stroke:#000;stroke-width:4;}
+	.st11{fill:#000;}
+</style>
+<g id="Forms">
+	<rect id="content_box" x="160" y="150" class="st0 st7" width="320" height="180"/>
+	<rect id="border_box" x="80" y="80" class="st1" width="480" height="320"/>
+	<rect id="margin_box" x="10" y="10" class="st0" width="620" height="460"/>
+	<!-- <g id="height">
+		<line id="height_line" class="st2" x1="189" y1="155" x2="189" y2="325"/>
+		<polygon points="189,161 182.649,161 185.824,155.493 189,150 192.176,155.5 195.351,161" class="st6"/>
+		<polygon points="189,319 195.351,319 192.176,324.507 189,330 185.824,324.5 182.649,319" class="st6"/>
+	</g> -->
+	<g id="width">
+		<line class="st2" x1="170" y1="280" x2="470" y2="280"/>
+		<polygon points="171,180 171,186.351 165.493,183.176 160,180 165.5,176.824 171,173.649" transform="translate(0,100)" class="st6"/>
+		<polygon points="469,180 469,173.649 474.507,176.824 480,180 474.5,183.176 469,186.351" transform="translate(0,100)" class="st6"/>
+	</g>
+	<g id="ltv-right">
+		<line class="st8" x1="445" y1="504" x2="570" y2="504"/>
+		<polygon points="469,180 469,173.649 474.507,176.824 480,180 474.5,183.176 469,186.351" transform= "translate(95,324)" class="st9"/>
+	</g>
+	<g id="ltv-left">
+		<line class="st8" x1="69" y1="504" x2="195" y2="504"/>
+		<polygon points="171,180 171,186.351 165.493,183.176 160,180 165.5,176.824 171,173.649" transform= "translate(-95,324)" class="st9"/>
+	</g>
+	<g id="lt-right">
+		<line class="st10" x1="407" y1="554" x2="626" y2="554"/>
+		<polygon points="469,180 469,173.649 474.507,176.824 480,180 474.5,183.176 469,186.351" transform= "translate(151,374)" class="st11"/>
+	</g>
+	<g id="lt-left">
+		<line class="st10" x1="14" y1="554" x2="233" y2="554"/>
+		<polygon points="171,180 171,186.351 165.493,183.176 160,180 165.5,176.824 171,173.649" transform= "translate(-150,374)" class="st11"/>
+	</g>
+</g>
+<g id="Text">
+	<text x="320" y="302" class="st3 st6">width</text>
+	<text x="320" y="87.2582"  class="st3 st4">border-top</text>
+	<text x="555" y="240"  transform="rotate(90,555,240)" class="st3 st4">border-right</text>
+	<text x="320" y="405"  class="st3 st4">border-bottom</text>
+	<text x="75" y="240"  transform="rotate(90,75,240)" class="st3 st4">border-left</text>
+	<text x="320" y="127.1655" class="st3">padding-top</text>
+	<text x="510" y="240" transform="rotate(90,510,240)" class="st3">padding-right</text>
+	<text x="320" y="363" class="st3">padding-bottom</text>
+	<text x="120" y="240" transform="rotate(90,120,240)" class="st3">padding-left</text>
+	<text x="320" y="45.0264"  class="st3">margin-top</text>
+	<text x="598" y="240" transform="rotate(90,598,240)" class="st3">margin-right</text>
+	<text x="320" y="450"  class="st3">margin-bottom</text>
+	<text x="35" y="240"  transform="rotate(90,35,240)" class="st3">margin-left</text>
+	<text x="320" y="246.1833" class="st5">contenu</text>
+	<text x="320" y="510" class="st3 st9">LARGEUR TOTALE VISIBLE</text>
+	<text x="320" y="560" class="st3 st11">LARGEUR TOTALE</text></g>
+</svg>
