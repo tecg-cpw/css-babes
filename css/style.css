@@ -1,0 +1,113 @@
+html{
+	background: url("../img/bg-bettyboop.gif") 10px 0 no-repeat rgba(7,178,0,.4) fixed;
+}
+body{
+	background-color: rgba(255,255,255,0.9);
+	font-family: Cambria,Georgia,serif;
+	font-size: 1.8em;
+	line-height: 1.4;
+	width: 960px;
+	margin: 0 auto;
+	box-shadow: 0 5px 5px rgba(255,255,255,.9);
+}
+h1{
+	background-color: purple;
+	color: white;
+	text-align: center;
+	padding: 0.5em;	
+	margin-top: 0;
+}
+li{
+	margin-bottom: 0.5em;
+}
+code{
+	font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	background-color: rgba(255,255,255,.8);
+	border-radius: 0.2em;
+	padding: 0.1em;
+}
+
+/* sélecteurs multiples */
+h2, h3, h4{
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: purple;
+	margin: 1.6em 64px 1em;
+}
+p, ul{
+	margin-left: 64px;
+	margin-right: 64px;
+}
+/* sélecteurs de classe */
+.principal{
+	color: purple;
+}
+.secondary{
+	color: rgb(7,178,0);
+}
+p.highlight{
+	background: url("../img/bg-bettyboop2.jpg") bottom right no-repeat rgba(255,255,204,.5);
+	background-size: contain;
+	border: 5px solid purple;
+	width: 500px;
+	padding: 1em 200px 1em 1em;
+	margin: 0 auto;
+}
+figure{
+	width: 832px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+figcaption{
+	font-size: 0.75em;
+	font-style: italic;
+}
+/* sélecteurs d'id */
+#footer{
+	background-color: purple;
+}
+/* sélecteurs de pseudo-classes */
+a:link{
+	text-decoration: none;
+	border-bottom: 4px solid rgb(7,178,0);
+	color: rgb(7,178,0) ;
+	font-weight: bold;
+	outline: none;
+}
+a:visited{
+	color: rgb(150,238,0); 
+	border-bottom: 4px solid rgb(150,238,0);
+	outline: none;
+}
+a:hover{
+	color: white;
+	background-color: rgb(7,178,0);
+	border-bottom: none;
+	outline: 0.2em solid rgb(7,178,0);
+}
+a:active{
+	color: blue;
+}
+/* Sélecteurs contextuels */
+#footer p{
+	color: white;
+	padding: 1em 0;
+	margin-top: 2em;
+	margin-bottom: 0;
+	text-align: right;
+	font-style: italic;
+}
+b code{
+	font-size: 1.2em;
+}
+.equation dfn{
+	font-style: normal;
+	text-transform: uppercase;
+	font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+}
+.equation span{
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
