@@ -39,6 +39,14 @@ p, ul{
 	margin-left: 64px;
 	margin-right: 64px;
 }
+figure{
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+figcaption{
+	font-size: 0.75em;
+	font-style: italic;
+}
 /* sélecteurs de classe */
 .principal{
 	color: purple;
@@ -53,16 +61,6 @@ p.highlight{
 	width: 500px;
 	padding: 1em 200px 1em 1em;
 	margin: 0 auto;
-}
-figure{
-	width: 832px;
-	margin: 0 auto;
-	text-align: center;
-	margin-bottom: 1.5em;
-}
-figcaption{
-	font-size: 0.75em;
-	font-style: italic;
 }
 /* sélecteurs d'id */
 #footer{
